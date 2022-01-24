@@ -14,7 +14,7 @@ export default function Form(Submit) {
     <>
       <div className="my-3">
         <textarea
-          value={text}
+          placeholder={text}
           className="form-control"
           onChange={handleOn}
           id="mybox"
