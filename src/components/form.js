@@ -8,6 +8,7 @@ export default function Form(Submit) {
   const [text, setText] = useState("Enter your value");
   const handleOn = (event) => {
     setText(event.target.value);
+    
   };
 
   return (
